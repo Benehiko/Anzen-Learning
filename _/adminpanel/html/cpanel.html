@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		<link href="color/default.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		<div class="container">
+			<div class = "row">
+				<div class = "col-md-5">
+				<h2>Signup</h2>
+				<form id="formSignup">
+					<div class="form-group">
+						<label for="inputEmail">Email address</label>
+						<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="inputPassword">Password</label>
+						<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+					</div>
+					<div class="form-group">
+						<label for="inputPasswordCheck">Re-enter password</label>
+						<input type="password" class="form-control" id="inputPasswordCheck" placeholder="Re-enter password">
+					</div>
+					<input type="submit" value="Submit" class="btn btn-default" id="registerSubmit" >
+				</form>
+				</div>
+				
+				<div class = "col-md-2">
+				<center><h2 id="red">or</h2></center>
+				</div>
+				
+				<div class = "col-md-5">
+				<h2>Sign in</h2>
+				<form id="formSignIn">
+					<div class="form-group">
+						<label for="inputEmail">Email address</label>
+						<input type="email" class="form-control" id="inputEmailSign" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="inputPassword">Password</label>
+						<input type="password" class="form-control" id="inputPasswordSign" placeholder="Password">
+					</div>
+					<input type="submit" value="Submit" class="btn btn-default" id="signInSubmit" >
+				</form>
+				<center><h4 class="error" id="red"></h4></center>
+				</div>
+				
+			</div>
+		</div>
+		<script src="js/register.js"></script>
+		<script src="js/login.js"></script>
+	</body>

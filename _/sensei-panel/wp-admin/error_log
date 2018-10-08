@@ -1,0 +1,11 @@
+[28-Jul-2017 02:10:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/benehiko/public_html/sensei-panel/wp-includes/load.php:316
+Stack trace:
+#0 phar:///opt/wp-cli/bin/wp/php/utils-wp.php(22): wp_debug_mode()
+#1 phar:///opt/wp-cli/bin/wp/php/wp-settings-cli.php(62): WP_CLI\Utils\wp_debug_mode()
+#2 phar:///opt/wp-cli/bin/wp/php/WP_CLI/Runner.php(736): require('phar:///opt/wp-...')
+#3 phar:///opt/wp-cli/bin/wp/php/WP_CLI/Runner.php(697): WP_CLI\Runner->load_wordpress()
+#4 phar:///opt/wp-cli/bin/wp/php/wp-cli.php(21): WP_CLI\Runner->start()
+#5 phar:///opt/wp-cli/bin/wp/php/boot-phar.php(5): include('phar:///opt/wp-...')
+#6 /opt/wp-cli/bin/wp(4): include('phar:///opt/wp-...')
+#7 {main}
+  thrown in /home/benehiko/public_html/sensei-panel/wp-includes/load.php on line 316

@@ -1,0 +1,35 @@
+[12-Oct-2017 16:45:42 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/benehiko/public_html/sepam/dbhandler.php on line 119
+[12-Oct-2017 16:47:54 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/benehiko/public_html/sepam/dbhandler.php on line 119
+[12-Oct-2017 16:51:27 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/benehiko/public_html/sepam/dbhandler.php on line 120
+[12-Oct-2017 16:51:36 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/benehiko/public_html/sepam/dbhandler.php on line 120
+[12-Oct-2017 16:56:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4294967296 bytes) in /home/benehiko/public_html/sepam/dbhandler.php on line 154
+[12-Oct-2017 17:00:41 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4294967296 bytes) in /home/benehiko/public_html/sepam/dbhandler.php on line 154
+[12-Oct-2017 17:13:08 UTC] PHP Notice:  Undefined variable: stmt2 in /home/benehiko/public_html/sepam/dbhandler.php on line 164
+[12-Oct-2017 17:13:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/benehiko/public_html/sepam/dbhandler.php:164
+Stack trace:
+#0 /home/benehiko/public_html/sepam/dbhandler.php(117): dbhandler->getStudentData(58)
+#1 /home/benehiko/public_html/sepam/dbhandler.php(220): dbhandler->getStudentIDRoom(Array, Object(mysqli))
+#2 /home/benehiko/public_html/sepam/dbhandler.php(31): dbhandler->getAdmin('58')
+#3 /home/benehiko/public_html/sepam/userdata.php(17): dbhandler->getData('58')
+#4 {main}
+  thrown in /home/benehiko/public_html/sepam/dbhandler.php on line 164
+[12-Oct-2017 17:49:04 UTC] PHP Notice:  Undefined index: mark in /home/benehiko/public_html/sepam/datahandler.php on line 27
+[12-Oct-2017 18:02:26 UTC] PHP Notice:  Undefined index: mark in /home/benehiko/public_html/sepam/datahandler.php on line 27
+[12-Oct-2017 18:03:13 UTC] PHP Notice:  Undefined index: mark in /home/benehiko/public_html/sepam/datahandler.php on line 27
+[12-Oct-2017 20:12:35 UTC] PHP Fatal error:  Uncaught Error: Class 'dbhandler' not found in /home/benehiko/public_html/sepam/userdata.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/benehiko/public_html/sepam/userdata.php on line 12
+[12-Oct-2017 21:02:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function close() in /home/benehiko/public_html/sepam/dbhandler.php:163
+Stack trace:
+#0 /home/benehiko/public_html/sepam/dbhandler.php(202): dbhandler->getStudentMessages(NULL)
+#1 /home/benehiko/public_html/sepam/dbhandler.php(117): dbhandler->getStudentData(58)
+#2 /home/benehiko/public_html/sepam/dbhandler.php(258): dbhandler->getStudentIDRoom(Array, Object(mysqli))
+#3 /home/benehiko/public_html/sepam/dbhandler.php(31): dbhandler->getAdmin('58')
+#4 /home/benehiko/public_html/sepam/userdata.php(17): dbhandler->getData('58')
+#5 {main}
+  thrown in /home/benehiko/public_html/sepam/dbhandler.php on line 163
+[23-Oct-2017 06:30:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/benehiko/public_html/sepam/dbconnect.php on line 12
+[23-Oct-2017 06:30:23 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/benehiko/public_html/sepam/dbhandler.php on line 460
+[23-Oct-2017 06:30:23 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/benehiko/public_html/sepam/dbhandler.php on line 461
+[23-Oct-2017 06:30:23 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/benehiko/public_html/sepam/dbhandler.php on line 463
